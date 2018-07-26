@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>Bootstrap Example</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="bootstrap/css.css">
+	<script src="bootstrap/jquery.js"></script>
+	<script src="bootstrap/bootstrap.js"></script>
+
+	<link rel="stylesheet" type="text/css" href="css/myCss.css">
+	<script type="text/javascript" src="javascript/myScript.js"></script>
+
+
+	
+
+</head>
+<body onload="createTable()">
+
+	<nav class="navbar navbar-inverse">
+		<div class="container-fluid">
+			<div class="navbar-header">
+				<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>                        
+				</button>
+				<a class="navbar-brand" href="#">Logo</a>
+			</div>
+			<div class="collapse navbar-collapse" id="myNavbar">
+				<ul class="nav navbar-nav">
+					<li class="active"><a href="#">Home</a></li>
+					<li><a href="#">About</a></li>
+				</ul>
+
+			</div>
+		</div>
+	</nav>
+
+	<div class="container-fluid text-center">    
+		<div class="row content">
+			<div class="col-sm-2 sidenav">
+
+			  <h3 class="text-left text-success"><u>Dijkstra Algo :</u></h3>
+			  <p class="text-left text-success"> I have use the Dijkstra Algorithm for shortest path finding.Therefore the solution is locally optimized not Globally optimized</p>
+
+			</div>
+			<div class="col-sm-8 text-left"> 
+
+
+
+				<div id="myBox" ><p class="text-center" style="color: white;">Agent</p></div>
+
+
+				<button style="margin: 10px;" id="createDust" class="btn btn-success" onclick="generateNoise()">Generate Dust</button>
+
+				<button style="margin: 10px; " id="removeDust" class="btn btn-success" onclick="drawPath()">Remove Dust</button>
+
+				<button style="margin: 10px; " id="refreshPage" class="btn btn-success" onclick="refresh()">Refresh Page</button>
+
+
+				<table id="myTable" border="1" class="table-striped " style="margin: 10px;" >
+
+
+				</table>
+
+
+
+
+
+			</div>
+			<div class="col-sm-2 sidenav">
+
+			</div>
+		</div>
+	</div>
+
+
+
+</body>
+</html>
