@@ -7,4 +7,4 @@ This is the AI cleaner:
 
 2.Clean the garbage using the "Remove dust Button"
 
-Note: I have use the Dijkstra algorithm Therefor the solution is locally optimized not globally optimized.
+Note: I have use the Dijkstra algorithm Therefore the solution is locally optimized not globally optimized.
