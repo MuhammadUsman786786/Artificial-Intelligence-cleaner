@@ -8,3 +8,6 @@ This is the AI cleaner:
 2.Clean the garbage using the "Remove dust Button"
 
 Note: I have use the Dijkstra algorithm Therefore the solution is locally optimized not globally optimized.
+
+
+![Image Not found](https://ibb.co/mndYZT)
